@@ -34,25 +34,22 @@ Result; The model with the highest score after hyper parameter optimization was 
 
 # Files
 
-- *diabet-prediction.ipynb* - Project Notebook
+- [*diabet-prediction.ipynb*](https://github.com/oguzerdo/Diabetes-Classification-Project/blob/main/diabet_prediction.ipynb) - Project Notebook
 
-- *diabetes.csv* - Dataset of project
 
-  
-
-## Libraries Used
+# Requirements
 
 ```
-pandas
-numpy
-seaborn
-matplotlib
-plotly
-sklearn
-lightgbm
-xgboost
+lightgbm==3.1.1
+matplotlib==3.5.2
+numpy==1.21.5
+pandas==1.4.3
+plotly==5.10.0
+scikit_learn==1.1.2
+seaborn==0.11.2
+xgboost==1.5.0
 ```
 
 ## Author
 
-- Oğuz Han Erdoğan - [oguzerdo](https://github.com/oguzerdo)
+- Oğuz Erdoğan - [oguzerdo](www.oguzerdogan.com)
