@@ -1,4 +1,4 @@
-# Pima Indians Diabetes Classification Project
+# Diabetes Prediction with Machine Learning
 ![banner](/images/diabetes.png)
 
 # Business Problem
