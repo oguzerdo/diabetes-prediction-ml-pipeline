@@ -29,9 +29,6 @@ The datasets consists of several medical predictor variables and one target vari
 | Age | Age (years) |
 | Outcome | Class variable ( 0 - 1) |
 
----
-Result; The model with the highest score after hyper parameter optimization was LGBM with 0.90 cross validation score.
-
 # Files
 
 - [*diabet-prediction.ipynb*](https://github.com/oguzerdo/diabetes-prediction/blob/main/diabet_prediction.ipynb) - Project Notebook
@@ -46,7 +43,6 @@ lightgbm==3.1.1
 matplotlib==3.5.2
 numpy==1.21.5
 pandas==1.4.3
-plotly==5.10.0
 scikit_learn==1.1.2
 seaborn==0.11.2
 xgboost==1.5.0
