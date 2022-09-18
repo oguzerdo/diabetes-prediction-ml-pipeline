@@ -31,7 +31,7 @@ The datasets consists of several medical predictor variables and one target vari
 
 # Files
 
-- [*diabet-prediction.ipynb*](https://github.com/oguzerdo/diabetes-prediction/blob/main/diabet_prediction.ipynb) - Project Notebook
+- [*diabetes-prediction.ipynb*](https://github.com/oguzerdo/diabetes-prediction/blob/main/diabetes_prediction.ipynb) - Project Notebook
 - [*helpers.py*](https://github.com/oguzerdo/diabetes-prediction/blob/main/helpers.py) - Functions Script
 - [*outputs-diabetes_rf_model.pkl*](https://github.com/oguzerdo/diabetes-prediction/blob/main/outputs/diabetes_rf_model) - Model Object
 
