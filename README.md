@@ -35,7 +35,7 @@ Result; The model with the highest score after hyper parameter optimization was 
 # Files
 
 - [*diabet-prediction.ipynb*](https://github.com/oguzerdo/diabetes-prediction/blob/main/diabet_prediction.ipynb) - Project Notebook
-- [*helpers.py*](https://github.com/oguzerdo/diabetes-prediction/blob/main/helpers.py) - Funtions Script
+- [*helpers.py*](https://github.com/oguzerdo/diabetes-prediction/blob/main/helpers.py) - Functions Script
 - [*outputs-diabetes_rf_model.pkl*](https://github.com/oguzerdo/diabetes-prediction/blob/main/outputs/diabetes_rf_model) - Model Object
 
 
