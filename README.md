@@ -14,6 +14,7 @@ The objective of the dataset is to diagnostically predict whether or not a patie
 The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
 **Number of Observation Units:** 768
+
 **Variable Number:** 9
 
 | Feature | Definition |
