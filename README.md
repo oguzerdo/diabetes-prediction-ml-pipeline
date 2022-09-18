@@ -31,23 +31,6 @@ The datasets consists of several medical predictor variables and one target vari
 
 ---
 Result; The model with the highest score after hyper parameter optimization was LGBM with 0.90 cross validation score.
-# REPORT
-
-**The aim of this study** was to create classification models for the diabetes data set and to predict whether a person is sick by establishing models and to obtain maximum validation scores in the established models. Here the steps;
-
-**Exploratory Data Analysis:** The data set's structural data were checked. The types of variables in the dataset were examined. Size information of the dataset was accessed. The 0 values in the data set are missing values. Primarily these 0 values were replaced with NaN values. Descriptive statistics of the data set were examined.
-
-**Data Preprocessing section;** The NaN values missing observations were filled with the median values of whether each variable was diabetic or not. The outliers were determined by LOF and dropped.
-
-**In model building;** first, the base model was create and the test results were checked. Then categorical variables were edited and new features were added to the model.
-
-**During Model Building;** Logistic Regression, KNN, CART, Random Forests, GBM, XGBoost, LightGBM like using machine learning models Cross Validation Score were calculated.
-
-**According to test results;** GBM, XGBoost, LightGBM hyperparameter optimizations optimized to increase Cross Validation value.
-
-**The model with the highest score after Hyper Parameter optimization was LGBM with 0.90 cross validation score**
-
-![](https://www.oguzerdogan.com/wp-content/uploads/2020/11/results___78_0.png)
 
 # Files
 
