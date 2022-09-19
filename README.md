@@ -39,10 +39,11 @@ The datasets consists of several medical predictor variables and one target vari
 # Requirements
 
 ```
+joblib==1.1.0
 lightgbm==3.1.1
 matplotlib==3.5.2
-numpy==1.21.5
-pandas==1.4.3
+numpy==1.22.3
+pandas==1.4.4
 scikit_learn==1.1.2
 seaborn==0.11.2
 xgboost==1.5.0
