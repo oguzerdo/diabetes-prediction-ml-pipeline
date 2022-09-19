@@ -29,6 +29,7 @@ The datasets consists of several medical predictor variables and one target vari
 | Age | Age (years) |
 | Outcome | Class variable ( 0 - 1) |
 
+!['pipeline'](images/pipeline.png)
 # Usage 
 **Script Modes:**
 ```

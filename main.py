@@ -1,6 +1,6 @@
-################################################
 # End-to-End Diabetes Machine Learning Pipeline
-################################################
+# Author: Oguz Erdogan
+# www.github.com/oguzerdo
 
 import pandas as pd
 from scripts.preprocess import *
@@ -9,9 +9,6 @@ from scripts.train import *
 from contextlib import contextmanager
 import time
 import joblib
-################################################
-# Pipeline Main Function
-################################################
 
 @contextmanager
 def timer(title):
