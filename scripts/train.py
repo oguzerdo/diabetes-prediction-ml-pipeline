@@ -37,7 +37,7 @@ def all_models(X, y, test_size=0.2, random_state=random_state, classification=cl
         models = [('CART', DecisionTreeClassifier(random_state=random_state)),
                   ('RF', RandomForestClassifier(random_state=random_state)),
                   ('GBM', GradientBoostingClassifier(random_state=random_state)),
-                  ('XGBoost', XGBClassifier(random_state=random_state, verbosity=0)),
+                  #('XGBoost', XGBClassifier(random_state=random_state, verbosity=0)),
                   ("LightGBM", LGBMClassifier(random_state=random_state))]
         if holdout:
             for name, model in models:

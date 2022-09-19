@@ -27,7 +27,7 @@ run:
 debug:
 	python main.py
 
-test:
+notuning:
 	python main.py --no-tuning
 
 req:

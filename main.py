@@ -1,18 +1,10 @@
 ################################################
 # End-to-End Diabetes Machine Learning Pipeline
 ################################################
-import warnings
-warnings.simplefilter(action="ignore")
-warnings.filterwarnings(action='ignore', category=UserWarning)
-warnings.filterwarnings(action='ignore', category=FutureWarning)
-
-from typing import final
 
 import pandas as pd
 from scripts.preprocess import *
 from scripts.train import *
-from scripts.utils import *
-from scripts.config import *
 
 from contextlib import contextmanager
 import time
