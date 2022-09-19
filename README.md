@@ -1,4 +1,4 @@
-# Diabetes Prediction with Machine Learning
+# Diabetes Prediction Machine Learning Pipeline
 ![banner](/images/diabetes.png)
 
 # Business Problem
