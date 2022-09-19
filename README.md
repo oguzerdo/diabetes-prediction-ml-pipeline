@@ -59,14 +59,12 @@ models: Shows models parameters and RMSE scores
 - [*diabetes-prediction.ipynb*](https://github.com/oguzerdo/diabetes-prediction/blob/main/diabetes_prediction.ipynb) - Project Notebook
 - [*main.py*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/blob/main/main.py) - Main script  
 
-  **Scripts**
 - [*configs.py*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/blob/main/scripts/config.py) - Configuration Files (Grid & Project settings)
 - [*model_history.py*](https://github.com/oguzerdo/diabetes-prediction/blob/main/helpers.py) - Show model validation scores from model_info_data.json file
 - [*preprocess.py*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/blob/main/scripts/preprocess.py) - Data Preparation script
 - [*train.py*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/blob/main/scripts/train.py) - Model Training with Debug option
 - [*utils.py*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/blob/main/scripts/utils.py) - Helper functions
 
-  **Outputs**
 - [*outputs*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/tree/main/outputs) - Output files, includes model pkl objects and model validation history
 
 # Requirements
