@@ -31,7 +31,7 @@ notuning:
 	python main.py --no-tuning
 
 req:
-	pip list --format=freeze > requirements.txt
+	pipreqs --force
 
 install:
 	pip install -r requirements.txt
