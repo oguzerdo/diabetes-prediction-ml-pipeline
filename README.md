@@ -29,12 +29,45 @@ The datasets consists of several medical predictor variables and one target vari
 | Age | Age (years) |
 | Outcome | Class variable ( 0 - 1) |
 
+# Usage 
+**Script Modes:**
+```
+--no-debug: Runs full script
+--no-tuning: Runs script without tuning
+--model-history: Shows models parameters and RMSE scores
+```
+# Make Commands
+To run script with make commands first install MakeFile application on your IDE then run like:
+
+```
+run: Runs full script with tuning
+
+debug: Runs script with debug mode (Set number of row option on scripts/config.file)
+
+notuning: Runs script without tuning
+
+req: Creates requirements.txt
+
+install: Installs requirements.txt
+
+models: Shows models parameters and RMSE scores
+```
+
+
 # Files
 
 - [*diabetes-prediction.ipynb*](https://github.com/oguzerdo/diabetes-prediction/blob/main/diabetes_prediction.ipynb) - Project Notebook
-- [*helpers.py*](https://github.com/oguzerdo/diabetes-prediction/blob/main/helpers.py) - Functions Script
-- [*outputs-diabetes_rf_model.pkl*](https://github.com/oguzerdo/diabetes-prediction/blob/main/outputs/diabetes_rf_model) - Model Object
+- [*main.py*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/blob/main/main.py) - Main script  
 
+  **Scripts**
+- [*configs.py*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/blob/main/scripts/config.py) - Configuration Files (Grid & Project settings)
+- [*model_history.py*](https://github.com/oguzerdo/diabetes-prediction/blob/main/helpers.py) - Show model validation scores from model_info_data.json file
+- [*preprocess.py*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/blob/main/scripts/preprocess.py) - Data Preparation script
+- [*train.py*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/blob/main/scripts/train.py) - Model Training with Debug option
+- [*utils.py*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/blob/main/scripts/utils.py) - Helper functions
+
+  **Outputs**
+- [*outputs*](https://github.com/oguzerdo/diabetes-prediction-ml-pipeline/tree/main/outputs) - Output files, includes model pkl objects and model validation history
 
 # Requirements
 
